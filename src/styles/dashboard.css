@@ -1,0 +1,111 @@
+
+/* src/styles/Dashboard.css */
+
+.tabs {
+    display: flex;
+    color: #fff; /* White text color for better contrast */
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tab {
+    padding: 15px 20px; /* Adjusted padding for a better visual balance */
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out, background-color 0.3s ease;
+  }
+  
+  .tab:hover {
+    border-bottom: 2px solid #fff; /* Light border color on hover */
+    background-color: #2980b9; /* Slightly darker background color on hover */
+  }
+  
+  .tab-content {
+    padding: 20px;
+  }
+
+
+  .button {
+    padding: 10px 15px;
+    background-color: #2ecc71; /* Green background color for buttons */
+    color: #fff; /* White text color for better contrast */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #27ae60; /* Darker green background color on hover */
+  }
+  
+  .user-details-button {
+    padding: 10px 15px;
+    background-color: #180e0d; /* Red background color for user details button */
+    color: #fff; /* White text color for better contrast */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-details-button:hover {
+    background-color: #c0392b; /* Darker red background color on hover */
+  }
+
+  .user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-details-table th, .user-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    z-index: 999;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .form-group button {
+    padding: 10px;
+    background-color: #2c3e50; /* Dark background color for buttons */
+    color: #ecf0f1; /* Light text color for buttons */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #34495e; /* Slightly darker background color on hover */
+  }
+
+
+

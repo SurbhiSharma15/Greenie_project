@@ -1,22 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+// import './styles/user-management.css';
+import Dashboard from './components/Dashboard';
+// import UserTable from './UserTable';
+// const userData = [
+//   // Mock user data
+//   // You can replace this with actual data fetched from a database
+//   {username:"surbhi", phone:"2637322652", id: '1', creationDate: '2015-07-01'}
+// ];
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Dashboard />
       </header>
     </div>
   );

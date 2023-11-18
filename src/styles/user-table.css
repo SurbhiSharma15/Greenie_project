@@ -1,0 +1,55 @@
+/* src/styles/UserTable.css */
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-table th {
+    background-color: #99a5b1; /* Darker background color for the table header */
+    color: #0b171a; /* Light text color for better contrast */
+    font-weight: bold;
+  }
+  
+  .user-table tbody tr {
+    cursor: pointer;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Center the content in each table cell */
+  .user-table th, .user-table td {
+    text-align: center;
+  }
+  
+  /* Styling for alternating rows */
+  .user-table tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Lighter background for alternating rows */
+  }
+  
+  /* Rounded borders for the first and last rows */
+  .user-table tbody tr:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .user-table tbody tr:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+
+
+
+
